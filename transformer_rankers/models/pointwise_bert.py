@@ -1,4 +1,4 @@
-from transformers import modeling_bert
+from transformers.models.bert import modeling_bert
 from transformer_rankers.models.losses import label_smoothing
 from torch import nn
 from IPython import embed
